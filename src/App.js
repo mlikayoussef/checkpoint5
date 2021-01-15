@@ -11,7 +11,9 @@ const handleClick = e => {
 function App() {
   return (
     <div className="App">
-      <Profile handleClick={handleClick} img={imgImport} fullName="youssef Mlika" bio="loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremv" profession="eleve" ></Profile>
+      <Profile handleClick={handleClick} img={imgImport} fullName="youssef Mlika" bio="loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremv" profession="eleve" >
+    {imgImport}
+    </Profile>
     </div>
 
   )
